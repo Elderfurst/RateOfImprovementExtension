@@ -1,0 +1,14 @@
+EOY Benchmark = constant dependant on grade
+	1st = 47
+	2nd = 87
+	3rd = 100
+	4th = 115
+	5th = 130
+Baseline = Grade taken from student at the beginning
+# weeks left = the number of instructional weeks left in the year
+
+(EOY Benchmark - Baseline) / # weeks left = ROI
+
+# weeks until review = the number of instructional weeks left before the review
+
+(ROI * # weeks until review) + Baseline = Short Term Target Goal

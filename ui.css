@@ -1,0 +1,32 @@
+.row {
+    width: 100%;
+    min-width: 100%;
+    height: 30px;
+}
+
+.small-input {
+    width: 30px;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+html {
+    min-width: 375px;
+    max-width: 375px;
+}
+
+.calculate {
+    text-align: center;
+}
+
+.results {
+    font-size: 18px;
+    margin: 0px;
+}

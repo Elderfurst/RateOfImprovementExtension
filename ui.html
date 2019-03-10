@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Rate Of Improvement Calculator</title>
+      <script src="roi.js"></script>
+      <link rel="stylesheet" href="ui.css">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  </head>
+  <body>
+    <h3 class="calculate">Calculate a student's ROI</h3>
+    <div class="row">
+    <label for="gradeLevelSelect">Select a Grade Level</label>
+    <select class="right" id="gradeLevelSelect">
+        <option value="first">1st</option>
+        <option value="second">2nd</option>
+        <option value="third">3rd</option>
+        <option value="fourth">4th</option>
+        <option value="fifth">5th</option>
+    </select>
+    </div>
+    <div class="row">
+        <label for="studentBaseline">Student's baseline</label> <input class="small-input right" id="studentBaseline" />
+    </div>
+    <div class="row">
+        <label for="instructionalWeeksLeft">Number of instructional weeks left in the year</label> <input class="small-input right" id="instructionalWeeksLeft" />
+    </div>
+    <div class="row">
+        <label for="weeksUntilReview">Number of weeks until tier plan review</label> <input class="small-input right" id="weeksUntilReview" />
+    </div>
+    <div class="row calculate">
+        <button type="button" id="calculateButton">Calculate</button>
+    </div>
+    <p id="results" class="calculate results" style="display: none;">
+        Rate of Improvement: <span id="roiResult"></span><br />
+        Short Term Target Goal: <span id="sttgResult"></span>
+    </p>
+  </body>
+</html>
